@@ -1,0 +1,34 @@
+BEGIN_PROLOG
+
+Cu_experiments: [  
+
+  {
+    Name:   "Gelderloos_Cu_PiMinus"
+    Graphs: [ ["reac", "Cu_xsec_reac_piminus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Gelderloos.root"
+
+    Type:   "Cu_PiMinus"
+  },
+
+  {
+    Name:   "Nakai_Cu_PiPlus"
+    Graphs: [ ["abs", "Cu_xsec_abs_piplus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Nakai.root"
+
+    Type:   "Cu_PiPlus"
+  },
+
+  {
+    Name:   "Nakai_Cu_PiMinus"
+    Graphs: [ ["abs", "Cu_xsec_abs_piminus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Nakai.root"
+
+    Type:   "Cu_PiMinus"
+  }
+
+]
+
+END_PROLOG

@@ -1,0 +1,8 @@
+#include "material.fcl"
+Type: 2112
+Range: [20., 2000.]
+NDivisions: 99
+Verbose: "true"
+Outfile: "neutron_cross_section_out.root"
+
+Material: @local::LAr

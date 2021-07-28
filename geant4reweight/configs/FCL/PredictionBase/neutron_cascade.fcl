@@ -1,0 +1,9 @@
+#include "material.fcl"
+Type: 2112
+NCascades: 100
+Range: [20., 200.]
+#NDivisions: 55
+NDivisions: 1 
+Outfile: "./neutron_cascade_out.root"
+
+Material: @local::LAr

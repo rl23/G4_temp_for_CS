@@ -1,0 +1,74 @@
+BEGIN_PROLOG
+
+O_experiments: [
+
+  {
+    Name:    "Meirav_O_PiMinus"
+    Graphs:  [
+      ["reac", "O_xsec_reac_piminus"]
+    ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Meirav.root"
+
+    Type:   "O_PiMinus"
+  }, 
+
+  {
+    Name:    "Meirav_O_PiPlus"
+    Graphs:  [
+      ["reac", "O_xsec_reac_piplus"]
+    ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Meirav.root"
+
+    Type:   "O_PiPlus"
+  },
+
+  {
+    Name:    "Ingram_O_PiPlus"
+    Graphs:  [
+      ["inel", "O_xsec_inel_piplus"]
+    ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Ingram.root"
+
+    Type:   "O_PiPlus"
+  },
+  
+  {
+    Name:    "Bowles_O_PiPlus"
+    Graphs:  [
+      ["cex", "O_xsec_cex_piplus"]
+    ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Bowles.root"
+
+    Type:   "O_PiPlus"
+  },
+  
+  {
+    Name:    "Ashery_946_O_PiPlus"
+    Graphs:  [
+      ["cex", "O_xsec_cex_piplus"]
+    ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Ashery_946.root"
+
+    Type:   "O_PiPlus"
+  },
+
+  {
+    Name:    "Ashery_946_O_PiMinus"
+    Graphs:  [
+      ["cex", "O_xsec_cex_piminus"]
+    ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Ashery_946.root"
+
+    Type:   "O_PiMinus"
+  }
+
+
+]
+
+END_PROLOG

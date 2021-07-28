@@ -1,0 +1,18 @@
+BEGIN_PROLOG 
+
+TheParameters: [
+  { 
+    Cut:    "pprod"
+    Name: "fProtonprod"
+    Range: [10., 2000.]
+    Nominal: 1.5 
+  },
+  {
+    Cut:    "inel"
+    Name: "finelastic"
+    Range: [10., 1000.]
+    Nominal: 1.0
+  }
+]
+
+END_PROLOG

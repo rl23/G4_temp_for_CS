@@ -1,0 +1,87 @@
+BEGIN_PROLOG
+
+Al_experiments: [
+
+  {
+    Name:   "Allardyce_Al_PiPlus"
+    Graphs: [ ["reac", "Al_xsec_reac_piplus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Allardyce.root"
+
+    Type:   "Al_PiPlus"
+  },
+
+  {
+    Name:   "Allardyce_Al_PiMinus"
+    Graphs: [ ["reac", "Al_xsec_reac_piminus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Allardyce.root"
+
+    Type:   "Al_PiMinus"
+  }, 
+
+  {
+    Name:   "Saunders_Al_PiPlus"
+    Graphs: [ ["reac", "Al_xsec_reac_piplus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Saunders.root"
+
+    Type:   "Al_PiPlus"
+  },
+
+  {
+    Name:   "Saunders_Al_PiMinus"
+    Graphs: [ ["reac", "Al_xsec_reac_piminus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Saunders.root"
+
+    Type:   "Al_PiMinus"
+  }, 
+
+  {
+    Name:   "Gelderloos_Al_PiMinus"
+    Graphs: [ ["reac", "Al_xsec_reac_piminus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Gelderloos.root"
+
+    Type:   "Al_PiMinus"
+  },
+
+  {
+    Name:   "Ashery_2173_Al_PiPlus"
+    Graphs: [ ["inel", "Al_xsec_inel_piplus"], ["abscx", "Al_xsec_abscx_piplus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Ashery_2173.root"
+
+    Type:   "Al_PiPlus"
+  },
+
+  {
+    Name:   "Ashery_2173_Al_PiMinus"
+    Graphs: [ ["inel", "Al_xsec_inel_piminus"], ["abscx", "Al_xsec_abscx_piminus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Ashery_2173.root"
+
+    Type:   "Al_PiMinus"
+  }, 
+
+  {
+    Name:   "Nakai_Al_PiPlus"
+    Graphs: [ ["abs", "Al_xsec_abs_piplus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Nakai.root"
+
+    Type:   "Al_PiPlus"
+  },
+
+  {
+    Name:   "Nakai_Al_PiMinus"
+    Graphs: [ ["abs", "Al_xsec_abs_piminus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Nakai.root"
+
+    Type:   "Al_PiMinus"
+  }
+]
+
+END_PROLOG

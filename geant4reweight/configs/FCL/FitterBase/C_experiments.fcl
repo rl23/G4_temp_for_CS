@@ -1,0 +1,178 @@
+BEGIN_PROLOG
+
+C_experiments: [  
+  {
+    Name:    "Binon_C_PiMinus"
+    Graphs:  [
+      ["reac", "C_xsec_reac_piminus"]
+    ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Binon.root"
+
+    Type:   "C_PiMinus"
+  }, 
+
+  {
+    Name:    "Meirav_C_PiMinus"
+
+    Graphs:  [
+      ["reac", "C_xsec_reac_piminus"]
+    ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Meirav.root"
+
+    Type:   "C_PiMinus"
+  }, 
+
+  {
+    Name:    "Meirav_C_PiPlus"
+    Graphs:  [
+      ["reac", "C_xsec_reac_piplus"]
+    ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Meirav.root"
+
+
+    Type:   "C_PiPlus"
+  }, 
+
+  {
+    Name:   "Allardyce_C_PiPlus"
+    Graphs: [ ["reac", "C_xsec_reac_piplus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Allardyce.root"
+
+    Type:   "C_PiPlus"
+  },
+
+  {
+    Name:   "Allardyce_C_PiMinus"
+    Graphs: [ ["reac", "C_xsec_reac_piminus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Allardyce.root"
+
+    Type:   "C_PiMinus"
+  },
+
+  {
+    Name:   "Saunders_C_PiPlus"
+    Graphs: [ ["reac", "C_xsec_reac_piplus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Saunders.root"
+
+    Type:   "C_PiPlus"
+  },
+
+  {
+    Name:   "Saunders_C_PiMinus"
+
+    Graphs: [ ["reac", "C_xsec_reac_piminus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Saunders.root"
+
+    Type:   "C_PiMinus"
+  },
+
+  {
+    Name:   "Gelderloos_C_PiMinus"
+
+    Graphs: [ ["reac", "C_xsec_reac_piminus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Gelderloos.root"
+
+    Type:   "C_PiMinus"
+  },
+
+  {
+    Name:   "Levenson_C_PiPlus"
+
+    Graphs: [ ["inel", "C_xsec_inel_piplus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Levenson.root"
+
+    Type:   "C_PiPlus"
+  },
+
+  {
+    Name:   "Jones_C_PiPlus"
+    Graphs: [ ["inel", "C_xsec_inel_piplus"], ["cex", "C_xsec_cex_piplus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Jones.root"
+
+    Type:   "C_PiPlus"
+  }, 
+
+  {
+    Name:   "Ashery_2173_C_PiPlus"
+    Graphs: [ ["inel", "C_xsec_inel_piplus"], ["abscx", "C_xsec_abscx_piplus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Ashery_2173.root"
+
+    Type:   "C_PiPlus"
+  },
+
+  {
+    Name:   "Ashery_2173_C_PiMinus"
+    Graphs: [ ["inel", "C_xsec_inel_piminus"], ["abscx", "C_xsec_abscx_piminus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Ashery_2173.root"
+
+    Type:   "C_PiMinus"
+  }, 
+
+  {
+    Name:   "Hilscher_C_PiMinus"
+    Graphs: [ ["cex", "C_xsec_cex_piminus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Hilscher.root"
+
+    Type:   "C_PiMinus"
+  },
+
+  {
+    Name:   "Ashery_946_C_PiPlus"
+    Graphs: [ ["cex", "C_xsec_cex_piplus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Ashery_946.root"
+
+    Type:   "C_PiPlus"
+  },
+
+  {
+    Name:   "Ashery_946_C_PiMinus"
+    Graphs: [ ["cex", "C_xsec_cex_piplus"] ]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Ashery_946.root"
+
+    Type:   "C_PiMinus"
+  }, 
+
+  {
+    Name:   "Bellotti_C_PiPlus"
+    Graphs: [ ["cex", "C_xsec_cex_piplus"], ["abs", "C_xsec_abs_piplus"]]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Bellotti.root"
+
+    Type:   "C_PiPlus"
+  },
+
+  {
+    Name:   "Navon_C_PiPlus"
+    Graphs: [ ["abscx", "C_xsec_abscx_piplus"]]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Navon.root"
+
+    Type:   "C_PiPlus"
+  },
+
+  {
+    Name:   "Miller_C_PiMinus"
+    Graphs: [ ["abscx", "C_xsec_abscx_piminus"]]
+
+    Data:   "/dune/app/users/calcuttj/geant/GeantReweight/data/Miller.root"
+
+    Type:   "C_PiMinus"
+  }
+]
+
+END_PROLOG
